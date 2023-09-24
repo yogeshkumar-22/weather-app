@@ -1,2 +1,2 @@
-https://yogeshkumar-22.github.io/weather-app/
+# Weather App
 My goal was to provide the users to access real-time weather information for their chosen locations.
