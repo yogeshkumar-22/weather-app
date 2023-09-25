@@ -15,25 +15,27 @@ body {
 
 h1 {
     background: hsl(212, 100%, 69%);
-    font-size: 1.75rem;
+    font-size: 1.67rem;
     text-align: center;
     cursor: pointer;
-    padding: 18px 0; 
+    padding: 18px 0;
     color: #fff;
 }
-a:link{
+
+a:link {
     text-decoration: none;
     color: black;
 }
 
-a:visited{
-    color:white;
+a:visited {
+    color: white;
     text-decoration: none;
 }
-img{
+
+img {
     width: 30px;
-    position:sticky
-    }
+    position: sticky
+}
 
 .container {
     display: flex;
@@ -41,10 +43,11 @@ img{
     padding: 30px;
 }
 
-p{
-    padding:20px;
+p {
+    padding: 20px;
     font-size: 18px;
 }
+
 footer {
     position: fixed;
     left: 0;
@@ -55,6 +58,12 @@ footer {
     color: white;
     text-align: left;
     text-decoration: none;
-    
+
 }
-  
+
+@media (max-width: 750px) {
+    h1 {
+        font-size: 1.45rem;
+        padding: 16px 0;
+    }
+}
